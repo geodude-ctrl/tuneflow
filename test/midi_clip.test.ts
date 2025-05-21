@@ -1,4 +1,8 @@
-import {
+// In TuneflowPlugin class:
+readonly allowManualApplyAdjust = false;
+
+// During creation:
+plugin.allowManualApplyAdjust = options.allowManualApplyAdjust;import {
   AutomationTarget,
   AutomationTargetType,
   Clip,
