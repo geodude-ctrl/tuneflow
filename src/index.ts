@@ -31,3 +31,4 @@ export { TimeSignatureEvent } from './models/time_signature';
 export { AudioPlugin } from './models/audio_plugin';
 export * from './descriptors/index';
 export * from './utils';
+protobuf<=3.19.4
